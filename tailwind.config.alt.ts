@@ -1,6 +1,5 @@
 import plugin from 'tailwindcss/plugin'
 
-import pgTailwindCssPlugin from '@pinegrow/tailwindcss-plugin'
 import {
   pg_colors,
   pg_fonts,
@@ -19,7 +18,7 @@ module.exports = {
     }),
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
-    pgTailwindCssPlugin({
+    require('@pinegrow/tailwindcss-plugin').default({
       colors: pg_colors, // primary, secondary etc
       fonts: pg_fonts,
       backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large
