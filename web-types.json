@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json.schemastore.org/web-types",
+  "framework": "vue",
+  "name": "custom",
+  "version": "0.0.0",
+  "contributions": {
+    "html": {
+      "elements": [
+        {
+          "name": "BaseButton",
+          "attributes": [
+            {
+              "name": "variant",
+              "customType": "select",
+              "default": "filled",
+              "options": ["elevated", "filled", "tonal", "outlined", "text"]
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "name": "role",
+          "customType": "select",
+          "default": "default",
+          "options": [
+            "default",
+            "surface",
+            "surface-dim",
+            "surface-bright",
+            "surface-container",
+            "surface-variant",
+            "primary",
+            "primary-container",
+            "secondary",
+            "secondary-container",
+            "tertiary",
+            "tertiary-container",
+            "error",
+            "error-container",
+            "success",
+            "success-container",
+            "warning",
+            "warning-container",
+            "info",
+            "info-container"
+          ]
+        },
+        {
+          "name": "size",
+          "customType": "select",
+          "default": "default",
+          "options": ["x-small", "small", "default", "large", "x-large"]
+        },
+        {
+          "name": "direction",
+          "customType": "select",
+          "default": "horizontal",
+          "options": ["horizontal", "vertical"]
+        },
+        {
+          "name": "alignment",
+          "customType": "select",
+          "default": "left",
+          "options": ["left", "right"]
+        }
+      ]
+    }
+  }
+}
