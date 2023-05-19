@@ -19,12 +19,12 @@ module.exports = {
       })
       // addBase({
       //   ':root': {
-      //     '--color-primary-400': '118 169 223',
-      //     '--color-primary-500': '80 152 216',
-      //     '--color-primary-600': '2 136 209',
-      //     // '--color-primary-400': '233 118 105',
-      //     // '--color-primary-500': '223 86 76',
-      //     // '--color-primary-600': '211 47 47',
+      //     '--color-secondary-400': '118 169 223',
+      //     '--color-secondary-500': '80 152 216',
+      //     '--color-secondary-600': '2 136 209',
+      //     // '--color-secondary-400': '233 118 105',
+      //     // '--color-secondary-500': '223 86 76',
+      //     // '--color-secondary-600': '211 47 47',
       //   },
       // })
     }),
